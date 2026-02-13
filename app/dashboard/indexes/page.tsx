@@ -61,7 +61,7 @@ export default function IndexesPage() {
         </button>
       </div>
 
-      <p className="text-gray-600 mb-6">Manage GPU vector search indexes</p>
+      <p className="text-gray-600 mb-6">Manage GPU vector searchJobs indexes</p>
 
       {showCreate && (
         <div className="mb-6 p-4 border rounded-lg bg-gray-50">

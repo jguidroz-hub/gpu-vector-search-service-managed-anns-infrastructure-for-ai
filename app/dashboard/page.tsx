@@ -30,7 +30,7 @@ export default function DashboardPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-8">
           <a href="/dashboard/indexes" className="block p-4 border rounded-lg hover:bg-blue-50 transition">
             <h3 className="font-medium">Vector Indexes</h3>
-            <p className="text-sm text-gray-500">Manage GPU vector search indexes</p>
+            <p className="text-sm text-gray-500">Manage GPU vector searchJobs indexes</p>
           </a>
           <a href="/dashboard/indexes/[id]" className="block p-4 border rounded-lg hover:bg-blue-50 transition">
             <h3 className="font-medium">Index Details</h3>

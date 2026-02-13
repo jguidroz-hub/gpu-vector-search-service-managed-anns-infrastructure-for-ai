@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'GPU Vector Search Service - Managed ANNS infrastructure for AI applications',
-  description: 'Value Proposition: Provides high-performance GPU-based vector search as managed service, eliminating need for ML teams to build custom ANNS infrastructure. Handles scaling, optimization, and model updates automatically.',
+  description: 'Value Proposition: Provides high-performance GPU-based vector searchJobs as managed service, eliminating need for ML teams to build custom ANNS infrastructure. Handles scaling, optimization, and model updates automatically.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

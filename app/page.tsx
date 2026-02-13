@@ -4,13 +4,13 @@ export default function HomePage() {
       {/* Hero */}
       <section className="max-w-4xl mx-auto px-6 py-20 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">GPU Vector Search Service - Managed ANNS infrastructure for AI applications</h1>
-        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Value Proposition: Provides high-performance GPU-based vector search as managed service, eliminating need for ML teams to build custom ANNS infrastructure. Handles scaling, optimization, and model updates automatically.
+        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Value Proposition: Provides high-performance GPU-based vector searchJobs as managed service, eliminating need for ML teams to build custom ANNS infrastructure. Handles scaling, optimization, and model updates automatically.
 
-Target Customer: AI/ML teams at mid-market companies, recommendation system developers, search infrastructure engineers
+Target Customer: AI/ML teams at mid-market companies, recommendation system developers, searchJobs infrastructure engineers
 
 ---
 Category: Developer Tools
-Target Market: AI/ML teams at mid-market companies, recommendation system developers, search infrastructure engineers
+Target Market: AI/ML teams at mid-market companies, recommendation system developers, searchJobs infrastructure engineers
 Source Hypothesis ID: 2d892d7d-7b05-4031-9a9f-7261b2ff6b91
 Promotion Type: automatic</p>
         <div className="flex gap-3 justify-center">
