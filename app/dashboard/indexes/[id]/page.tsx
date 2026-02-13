@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-interface IndexesDetailItem
+interface IndexesDetailItem {
   id: string;
   title?: string;
   status?: string;
@@ -10,7 +10,7 @@ interface IndexesDetailItem
   [key: string]: any;
 }
 
-export default function IndexesDetailPage
+export default function IndexesDetailPage() {
   const [items, setItems] = useState<IndexesDetailItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [showCreate, setShowCreate] = useState(false);
