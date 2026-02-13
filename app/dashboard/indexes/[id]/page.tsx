@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-interface Indexes/[id]Item {
+interface IndexesDetailItem
   id: string;
   title?: string;
   status?: string;
@@ -10,8 +10,8 @@ interface Indexes/[id]Item {
   [key: string]: any;
 }
 
-export default function Indexes/[id]Page() {
-  const [items, setItems] = useState<Indexes/[id]Item[]>([]);
+export default function IndexesDetailPage
+  const [items, setItems] = useState<IndexesDetailItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [showCreate, setShowCreate] = useState(false);
   const [newTitle, setNewTitle] = useState('');
@@ -39,7 +39,7 @@ export default function Indexes/[id]Page() {
   };
 
   const handleDelete = async (id: string) => {
-    await fetch(`/api/indexes/[id]/${id}`, { method: 'DELETE' });
+    await fetch(`/ApiIndexesDetail/${id}`, { method: 'DELETE' });
     setItems(prev => prev.filter(i => i.id !== id));
   };
 
