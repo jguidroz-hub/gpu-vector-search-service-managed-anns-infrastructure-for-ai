@@ -46,7 +46,7 @@ export const searchJobs = pgTable('search_jobs', {
   indexId: text('index_id').references(() => indexes.id, { onDelete: 'cascade' }),
   type: text('type').notNull(),
   status: text('status').notNull(),
-  progress: text('progress').default(0),
+  progress: text('progress').default('0'),
   errorMessage: text('error_message'),
   createdAt: timestamp('created_at').notNull(),
   updatedAt: timestamp('updated_at').notNull(),
